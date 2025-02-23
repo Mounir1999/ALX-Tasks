@@ -3,9 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact page</title>
 </head>
 <body>
+
+    <HEader>
+        <H1>Contact Us</H1>
+        <Nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">about</a></li>
+                <li><a href="schedule.html">schedule</a></li>
+                <li><a href="register.html">register</a></li>
+            </ul>
+        </Nav>
+    </HEader>
+
+    <main>
+        <section>
+            <h2>Email Address</h2>
+            <p>For inquiries, please email us at: <a href=": conference@example.com.">: conference@example.com.</a></p>
+            <h2>Follow Us on Social Media</h2>
+            <ul>
+                <li><a href="www.Twitter.com" target="_blank">Twitter</a></li>
+                <li><a href="www.Facebook.com" target="_blank">Facebook</a></li>
+                <li><a href="www.LinkedIn.com" target="_blank">LinkedIn</a></li>
+                <li><a href="www.Instagram.com" target="_blank">Instagram</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Conference Venue Location</h2>
+            <iframe src="https://www.google.com/maps?ll=-37.8162
+            8,144.953735&z=16&t=m&hl=en&gl=
+            AU&mapclient=embed" frameborder="0" width="100%" height="450px"></iframe>
+        </section>
+
+        <section>
+            <h2>Contact Us Form</h2>
+            <form action="/submit-contact" method="post">
+                <label for="Name">Name</label>
+                <input id="Name" type="text" name="entry name">
+                <br>
+                <label for="email">email</label>
+                <input id="email" type="email" name="entry email">
+                <br>
+                <label for="message for us">messae</label>
+                <textarea name="message for us" id="message" placeholder="message for us"></textarea>
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">about</a></li>
+                <li><a href="schedule.html">schedule</a></li>
+                <li><a href="register.html">register</a></li>
+        </ul>
+        <p>Copyright &copy; 2024 Elevate 2024. All rights reserved.</p>
+    </footer>
     
 </body>
 </html>
